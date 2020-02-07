@@ -1,0 +1,4 @@
+'*.bin' filter=lfs diff=lfs merge=lfs -text
+LargeFiles/* filter=lfs diff=lfs merge=lfs -text
+myfolder/** filter=lfs diff=lfs merge=lfs -text
+LargeFiles/** filter=lfs diff=lfs merge=lfs -text
